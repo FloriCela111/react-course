@@ -13,10 +13,10 @@ export default [
         id: 'q2',
         text: 'What purpose do React hooks serve?',
         answers: [
-          'Enabling the use state and other React features in functional c',
-          'Creating responsive layouts in React applications.',
-          'Handling errors within the application.',
-          'Part of the Redux library for managing global state.',
+            'Enabling the use state and other React features in functional components.',
+            'Creating responsive layouts in React applications.',
+            'Handling errors within the application.',
+            'Part of the Redux library for managing global state.',
         ],
     },
     {
@@ -45,7 +45,7 @@ export default [
         answers: [
             'An object in a component that holds values and may cause the components.',
             'The lifecycle phase a React component is in.',
-            'The overall status of a React application, including all props and.',
+            'The overall status of a React application, including all props and components.',
             'A library for managing global state in React applications.',
         ],
     },
@@ -53,10 +53,10 @@ export default [
         id: 'q6',
         text: 'How do you typically render list content in React apps?',
         answers: [
-            'By using the map() method to iterate over an array of data and return.',
-            'By using the for() loop to iterate over an array of data and return.',
-            'By using the forEach() method to iterate over an data and.',
-            'By using the loop() method to iterate over an array of data and return.',
+            'By using the map() method to iterate over an array of data and returning JSX.',
+            'By using the for() loop to iterate over an array of data and returning JSX.',
+            'By using the forEach() method to iterate over an data and returning JSX.',
+            'By using the loop() method to iterate over an array of data and returning JSX.',
         ],
     },
     {
